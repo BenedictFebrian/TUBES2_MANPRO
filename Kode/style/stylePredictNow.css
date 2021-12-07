@@ -1,0 +1,80 @@
+.home, .data{
+	color: gray;
+}
+
+.topnav{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+
+	position: static;
+	width: 1339px;
+	height: 32px;
+	left: 510px;
+	order: 1;
+}
+
+.topnav-right{
+	position: static;
+	margin-left: 770px;
+}
+
+.topnav .gambar{
+	position: static;
+	width: 80px;
+	height: 82px;
+	order: 0;
+	margin: 0px 5px -25px;
+}
+
+.judul{
+	position: absolute;
+	width: 721px;
+	height: 82px;
+	left: 500px;
+	top: 20px;
+
+	font-family: Manrope;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 50px;
+	line-height: 89px;
+}
+
+.footer{
+	position: absolute;
+	width: 1400px;
+	height: 580px;
+	left: 0px;
+	top: 912px;
+}
+
+
+.mainmenubtn {
+    border: none;
+    cursor: pointer;
+    padding:20px;
+    margin-top:20px;
+}
+.mainmenubtn:hover {
+    background-color: yellow;
+    }
+.drop {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-child {
+    display: none;
+    background-color: white;
+    min-width: 200px;
+}
+.dropdown-child a {
+    color: blue;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+.drop:hover .dropdown-child {
+    display: block;
+}
