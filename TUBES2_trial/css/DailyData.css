@@ -1,0 +1,1196 @@
+/* Daily Data */
+
+position: relative;
+width: 1440px;
+height: 1216px;
+
+/* Neutral[100] */
+background: #FFFFFF;
+
+
+/* icon */
+
+position: absolute;
+width: 1766px;
+height: 670px;
+left: -326px;
+top: 559px;
+
+
+
+/* Footer */
+
+position: absolute;
+width: 1469px;
+height: 526px;
+left: -29px;
+top: 703px;
+
+
+
+/* Rectangle 4 */
+
+position: absolute;
+width: 1469px;
+height: 526px;
+left: -29px;
+top: 703px;
+
+background: rgba(236, 235, 255, 0.6);
+
+
+/* Footer Content */
+
+/* Auto Layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+width: 918.12px;
+height: 186.96px;
+left: 344px;
+top: 828px;
+
+
+
+/* Footer Column */
+
+position: static;
+width: 97px;
+height: 206px;
+left: 0px;
+top: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 165px;
+
+
+/* Links */
+
+position: absolute;
+width: 97px;
+height: 162px;
+left: 0px;
+top: 44px;
+
+
+
+/* Features */
+
+position: absolute;
+width: 65px;
+height: 26px;
+left: 0px;
+top: 78px;
+
+/* Body small */
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+/* Neutral[400] */
+color: #717082;
+
+
+
+/* Pricing */
+
+position: absolute;
+width: 51px;
+height: 26px;
+left: 0px;
+top: 112px;
+
+/* Body small */
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+/* Neutral[400] */
+color: #717082;
+
+
+
+/* FAQ */
+
+position: absolute;
+width: 31px;
+height: 26px;
+left: 0px;
+top: 146px;
+
+/* Body small */
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+/* Neutral[400] */
+color: #717082;
+
+
+
+/* Download */
+
+position: absolute;
+width: 77px;
+height: 26px;
+left: 0px;
+top: 180px;
+
+/* Body small */
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+/* Neutral[400] */
+color: #717082;
+
+
+
+/* How it works */
+
+position: absolute;
+width: 97px;
+height: 26px;
+left: 0px;
+top: 44px;
+
+/* Body small */
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+/* Neutral[400] */
+color: #717082;
+
+
+
+/* Product */
+
+position: absolute;
+width: 69px;
+height: 24px;
+left: 0px;
+top: 0px;
+
+/* Body title */
+font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 24px;
+/* identical to box height, or 133% */
+
+/* Neutral[500] */
+color: #2F2E41;
+
+
+
+/* Footer Column */
+
+position: static;
+width: 101px;
+height: 206px;
+left: 262px;
+top: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 165px;
+
+
+/* Links */
+
+position: absolute;
+width: 101px;
+height: 162px;
+left: 262px;
+top: 44px;
+
+
+
+/* About */
+
+position: absolute;
+width: 46px;
+height: 26px;
+left: 262px;
+top: 44px;
+
+/* Body small */
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+/* Neutral[400] */
+color: #717082;
+
+
+
+/* Blog */
+
+position: absolute;
+width: 33px;
+height: 26px;
+left: 262px;
+top: 78px;
+
+/* Body small */
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+/* Neutral[400] */
+color: #717082;
+
+
+
+/* Partnership */
+
+position: absolute;
+width: 88px;
+height: 26px;
+left: 262px;
+top: 112px;
+
+/* Body small */
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+/* Neutral[400] */
+color: #717082;
+
+
+
+/* Terms of use */
+
+position: absolute;
+width: 97px;
+height: 26px;
+left: 262px;
+top: 146px;
+
+/* Body small */
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+/* Neutral[400] */
+color: #717082;
+
+
+
+/* Privacy policy */
+
+position: absolute;
+width: 101px;
+height: 26px;
+left: 262px;
+top: 180px;
+
+/* Body small */
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+/* Neutral[400] */
+color: #717082;
+
+
+
+/* Company */
+
+position: absolute;
+width: 83px;
+height: 24px;
+left: 263px;
+top: 0px;
+
+/* Body title */
+font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 24px;
+/* identical to box height, or 133% */
+
+/* Neutral[500] */
+color: #2F2E41;
+
+
+
+/* Footer Column */
+
+position: static;
+width: 87px;
+height: 104px;
+left: 528px;
+top: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+margin: 0px 165px;
+
+
+/* Links */
+
+position: absolute;
+width: 87px;
+height: 60px;
+left: 528px;
+top: 44px;
+
+
+
+/* Contact us */
+
+position: absolute;
+width: 80px;
+height: 26px;
+left: 528px;
+top: 78px;
+
+/* Body small */
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+/* Neutral[400] */
+color: #717082;
+
+
+
+/* Help center */
+
+position: absolute;
+width: 87px;
+height: 26px;
+left: 528px;
+top: 44px;
+
+/* Body small */
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+/* Neutral[400] */
+color: #717082;
+
+
+
+/* Support */
+
+position: absolute;
+width: 70px;
+height: 24px;
+left: 528px;
+top: 0px;
+
+/* Body title */
+font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 24px;
+/* identical to box height, or 133% */
+
+/* Neutral[500] */
+color: #2F2E41;
+
+
+
+/* Footer Column */
+
+position: static;
+width: 120px;
+height: 76px;
+left: 780px;
+top: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+margin: 0px 165px;
+
+
+/* Links */
+
+position: absolute;
+width: 120px;
+height: 32px;
+left: 780px;
+top: 44px;
+
+
+
+/* Social media icon */
+
+position: absolute;
+width: 32px;
+height: 32px;
+left: 780px;
+top: 44px;
+
+
+
+/* Rectangle 5 */
+
+position: absolute;
+width: 32px;
+height: 32px;
+left: 780px;
+top: 44px;
+
+/* Neutral[100] */
+background: #FFFFFF;
+border-radius: 1px;
+
+
+/* Vector */
+
+position: absolute;
+left: 86.32%;
+right: 12.8%;
+top: 28.43%;
+bottom: 64.24%;
+
+/* Neutral[300] */
+background: #9893A3;
+border-radius: 1px;
+
+
+/* Social media icon */
+
+position: absolute;
+width: 32px;
+height: 32px;
+left: 824px;
+top: 44px;
+
+
+
+/* Rectangle 5 */
+
+position: absolute;
+width: 32px;
+height: 32px;
+left: 824px;
+top: 44px;
+
+/* Neutral[100] */
+background: #FFFFFF;
+border-radius: 1px;
+
+
+/* brandico:twitter-bird */
+
+position: absolute;
+width: 15.52px;
+height: 12.6px;
+left: 832.73px;
+top: 53.7px;
+
+border-radius: 1px;
+
+
+/* Vector */
+
+position: absolute;
+left: -0.01%;
+right: 0.01%;
+top: 0%;
+bottom: 0%;
+
+/* Neutral[300] */
+background: #9893A3;
+
+
+/* Social media icon */
+
+position: absolute;
+width: 32px;
+height: 32px;
+left: 868px;
+top: 44px;
+
+
+
+/* Rectangle 5 */
+
+position: absolute;
+width: 32px;
+height: 32px;
+left: 868px;
+top: 44px;
+
+/* Neutral[100] */
+background: #FFFFFF;
+border-radius: 1px;
+
+
+/* brandico:twitter-bird */
+
+position: absolute;
+width: 15.52px;
+height: 12.6px;
+left: 876.73px;
+top: 53.7px;
+
+border-radius: 1px;
+
+
+/* Union */
+
+position: absolute;
+left: 10.04%;
+right: 8.93%;
+top: 4.67%;
+bottom: 4.65%;
+
+/* Neutral[300] */
+background: #9893A3;
+
+
+/* Get in touch */
+
+position: absolute;
+width: 107px;
+height: 24px;
+left: 781px;
+top: 0px;
+
+/* Body title */
+font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 24px;
+/* identical to box height, or 133% */
+
+/* Neutral[500] */
+color: #2F2E41;
+
+
+
+/* shadow */
+
+position: absolute;
+width: 638.8px;
+height: 640.71px;
+left: -296.8px;
+top: 588.29px;
+
+background: url(moon.png);
+opacity: 0.35;
+filter: blur(112px);
+
+
+/* icon */
+
+position: absolute;
+width: 638.8px;
+height: 640.71px;
+left: -326px;
+top: 559px;
+
+background: url(moon.png);
+
+
+/* Sidney */
+
+position: absolute;
+width: 218px;
+height: 90px;
+left: 143px;
+top: 95px;
+
+font-family: Manrope;
+font-style: normal;
+font-weight: bold;
+font-size: 65px;
+line-height: 89px;
+
+color: #000000;
+
+
+
+/* Beautiful day to go outside. */
+
+position: absolute;
+width: 475px;
+height: 33px;
+left: 148px;
+top: 513px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 42px;
+
+color: #000000;
+
+
+
+/* icon */
+
+position: absolute;
+width: 273px;
+height: 242.41px;
+left: 159px;
+top: 246px;
+
+
+
+/* shadow */
+
+position: absolute;
+width: 261.07px;
+height: 231.81px;
+left: 170.93px;
+top: 256.6px;
+
+background: url(cloudy.png);
+opacity: 0.5;
+filter: blur(64px);
+
+
+/* icon */
+
+position: absolute;
+width: 261.07px;
+height: 231.81px;
+left: 159px;
+top: 246px;
+
+background: url(cloudy.png);
+
+
+/* Morning */
+
+position: absolute;
+width: 151px;
+height: 37px;
+left: 148px;
+top: 177px;
+
+font-family: Manrope;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 49px;
+
+color: #000000;
+
+
+
+/* Sunny day to go outside. */
+
+position: absolute;
+width: 475px;
+height: 33px;
+left: 744px;
+top: 513px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 42px;
+
+color: #000000;
+
+
+
+/* Afternoon */
+
+position: absolute;
+width: 173px;
+height: 37px;
+left: 751px;
+top: 185px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 42px;
+
+color: #000000;
+
+
+
+/* icon */
+
+position: absolute;
+width: 222.11px;
+height: 217px;
+left: 767px;
+top: 247px;
+
+
+
+/* shadow */
+
+position: absolute;
+width: 221.05px;
+height: 207.51px;
+left: 768.05px;
+top: 256.49px;
+
+background: url(sun.png);
+opacity: 0.5;
+filter: blur(64px);
+
+
+/* icon */
+
+position: absolute;
+width: 221.05px;
+height: 207.51px;
+left: 767px;
+top: 247px;
+
+background: url(sun.png);
+
+
+/* 26° */
+
+position: absolute;
+width: 164px;
+height: 133px;
+left: 473px;
+top: 259px;
+
+font-family: Manrope;
+font-style: normal;
+font-weight: 800;
+font-size: 96px;
+line-height: 131px;
+
+
+
+/* 31° */
+
+position: absolute;
+width: 164px;
+height: 133px;
+left: 1024px;
+top: 259px;
+
+font-family: Manrope;
+font-style: normal;
+font-weight: 800;
+font-size: 96px;
+line-height: 131px;
+
+
+
+/* Button */
+
+/* Auto Layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 30px;
+
+position: absolute;
+width: 142px;
+height: 51px;
+left: 473px;
+top: 427px;
+
+/* Primary[400] */
+background: #6C63FF;
+/* Primary[400] */
+border: 1px solid #6C63FF;
+box-sizing: border-box;
+border-radius: 2px;
+
+
+/* Get Started */
+
+position: static;
+width: 82px;
+height: 19px;
+left: calc(50% - 82px/2);
+top: calc(50% - 19px/2);
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 19px;
+/* identical to box height */
+text-align: center;
+
+/* Neutral[100] */
+color: #FFFFFF;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 10px;
+
+
+/* Button */
+
+/* Auto Layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 30px;
+
+position: absolute;
+width: 142px;
+height: 51px;
+left: 1024px;
+top: 427px;
+
+/* Primary[400] */
+background: #6C63FF;
+/* Primary[400] */
+border: 1px solid #6C63FF;
+box-sizing: border-box;
+border-radius: 2px;
+
+
+/* Get Started */
+
+position: static;
+width: 82px;
+height: 19px;
+left: calc(50% - 82px/2);
+top: calc(50% - 19px/2);
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 19px;
+/* identical to box height */
+text-align: center;
+
+/* Neutral[100] */
+color: #FFFFFF;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 10px;
+
+
+/* Group 38 */
+
+position: absolute;
+width: 70px;
+height: 24px;
+left: 28px;
+top: 95px;
+
+
+
+/* Back */
+
+position: absolute;
+width: 50px;
+height: 24px;
+left: 48px;
+top: 95px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+/* identical to box height */
+
+color: #000000;
+
+
+
+/* icon/chevron-left */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 28px;
+top: 95px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 37.5%;
+right: 37.5%;
+top: 25%;
+bottom: 25%;
+
+border: 2px solid #000000;
+
+
+/* Cloudy */
+
+position: absolute;
+width: 84px;
+height: 33px;
+left: 148px;
+top: 472px;
+
+font-family: Manrope;
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 33px;
+/* identical to box height */
+
+/* Colors/Grey Blue */
+color: #8EC1DD;
+
+
+
+/* Sunny */
+
+position: absolute;
+width: 76px;
+height: 33px;
+left: 744px;
+top: 472px;
+
+font-family: Manrope;
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 33px;
+/* identical to box height */
+
+/* Colors / Orange */
+color: #FF8E27;
+
+
+
+/* Group 37 */
+
+position: absolute;
+width: 1849px;
+height: 82px;
+left: 0px;
+top: 0px;
+
+
+
+/* Navbar */
+
+/* Auto Layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+
+position: absolute;
+width: 1339px;
+height: 22px;
+left: 510px;
+top: 25px;
+
+
+
+/* Links */
+
+/* Auto Layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+
+position: static;
+width: 406px;
+height: 22px;
+left: 466.5px;
+top: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 263px;
+
+
+/* Home */
+
+position: static;
+height: 22px;
+left: 0%;
+right: 87.93%;
+top: calc(50% - 22px/2);
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height */
+
+color: #9893A3;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 36px;
+
+
+/* Home */
+
+position: static;
+width: 116px;
+height: 22px;
+left: 85px;
+top: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 36px;
+
+
+/* Line 1 */
+
+position: absolute;
+width: 110px;
+height: 0px;
+left: 85.5px;
+top: 22px;
+
+/* Primary[300] */
+border: 4px solid #9E99FF;
+
+
+/* Weather Data */
+
+position: absolute;
+height: 22px;
+left: 20.94%;
+right: 50.49%;
+top: calc(50% - 22px/2);
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height */
+
+color: #2F2E41;
+
+
+
+/* Weather Prediction */
+
+position: static;
+height: 22px;
+left: 58.37%;
+right: 0%;
+top: calc(50% - 22px/2);
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height */
+
+/* Neutral[300] */
+color: #9893A3;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+margin: 0px 36px;
+
+
+/* Group 35 */
+
+position: absolute;
+width: 80px;
+height: 82px;
+left: 0px;
+top: 0px;
+
+
+
+/* Download free vector of Illustration of weather forecast icon 394816 1 */
+
+position: absolute;
+width: 80px;
+height: 82px;
+left: 0px;
+top: 0px;
+
+background: url(Download free vector of Illustration of weather forecast icon 394816.png);
