@@ -1,0 +1,1506 @@
+/* Daily Pick Date */
+
+position: relative;
+width: 1440px;
+height: 1426px;
+
+/* Neutral[100] */
+background: #FFFFFF;
+
+
+/* Footer */
+
+position: absolute;
+width: 1469px;
+height: 526px;
+left: -29px;
+top: 984px;
+
+
+
+/* Rectangle 4 */
+
+position: absolute;
+width: 1469px;
+height: 526px;
+left: -29px;
+top: 984px;
+
+background: rgba(236, 235, 255, 0.6);
+
+
+/* Footer Content */
+
+/* Auto Layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+width: 918.12px;
+height: 186.96px;
+left: 344px;
+top: 1109px;
+
+
+
+/* Footer Column */
+
+position: static;
+width: 97px;
+height: 206px;
+left: 0px;
+top: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 165px;
+
+
+/* Links */
+
+position: absolute;
+width: 97px;
+height: 162px;
+left: 0px;
+top: 44px;
+
+
+
+/* Features */
+
+position: absolute;
+width: 65px;
+height: 26px;
+left: 0px;
+top: 78px;
+
+/* Body small */
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+/* Neutral[400] */
+color: #717082;
+
+
+
+/* Pricing */
+
+position: absolute;
+width: 51px;
+height: 26px;
+left: 0px;
+top: 112px;
+
+/* Body small */
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+/* Neutral[400] */
+color: #717082;
+
+
+
+/* FAQ */
+
+position: absolute;
+width: 31px;
+height: 26px;
+left: 0px;
+top: 146px;
+
+/* Body small */
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+/* Neutral[400] */
+color: #717082;
+
+
+
+/* Download */
+
+position: absolute;
+width: 77px;
+height: 26px;
+left: 0px;
+top: 180px;
+
+/* Body small */
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+/* Neutral[400] */
+color: #717082;
+
+
+
+/* How it works */
+
+position: absolute;
+width: 97px;
+height: 26px;
+left: 0px;
+top: 44px;
+
+/* Body small */
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+/* Neutral[400] */
+color: #717082;
+
+
+
+/* Product */
+
+position: absolute;
+width: 69px;
+height: 24px;
+left: 0px;
+top: 0px;
+
+/* Body title */
+font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 24px;
+/* identical to box height, or 133% */
+
+/* Neutral[500] */
+color: #2F2E41;
+
+
+
+/* Footer Column */
+
+position: static;
+width: 101px;
+height: 206px;
+left: 262px;
+top: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 165px;
+
+
+/* Links */
+
+position: absolute;
+width: 101px;
+height: 162px;
+left: 262px;
+top: 44px;
+
+
+
+/* About */
+
+position: absolute;
+width: 46px;
+height: 26px;
+left: 262px;
+top: 44px;
+
+/* Body small */
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+/* Neutral[400] */
+color: #717082;
+
+
+
+/* Blog */
+
+position: absolute;
+width: 33px;
+height: 26px;
+left: 262px;
+top: 78px;
+
+/* Body small */
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+/* Neutral[400] */
+color: #717082;
+
+
+
+/* Partnership */
+
+position: absolute;
+width: 88px;
+height: 26px;
+left: 262px;
+top: 112px;
+
+/* Body small */
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+/* Neutral[400] */
+color: #717082;
+
+
+
+/* Terms of use */
+
+position: absolute;
+width: 97px;
+height: 26px;
+left: 262px;
+top: 146px;
+
+/* Body small */
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+/* Neutral[400] */
+color: #717082;
+
+
+
+/* Privacy policy */
+
+position: absolute;
+width: 101px;
+height: 26px;
+left: 262px;
+top: 180px;
+
+/* Body small */
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+/* Neutral[400] */
+color: #717082;
+
+
+
+/* Company */
+
+position: absolute;
+width: 83px;
+height: 24px;
+left: 263px;
+top: 0px;
+
+/* Body title */
+font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 24px;
+/* identical to box height, or 133% */
+
+/* Neutral[500] */
+color: #2F2E41;
+
+
+
+/* Footer Column */
+
+position: static;
+width: 87px;
+height: 104px;
+left: 528px;
+top: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+margin: 0px 165px;
+
+
+/* Links */
+
+position: absolute;
+width: 87px;
+height: 60px;
+left: 528px;
+top: 44px;
+
+
+
+/* Contact us */
+
+position: absolute;
+width: 80px;
+height: 26px;
+left: 528px;
+top: 78px;
+
+/* Body small */
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+/* Neutral[400] */
+color: #717082;
+
+
+
+/* Help center */
+
+position: absolute;
+width: 87px;
+height: 26px;
+left: 528px;
+top: 44px;
+
+/* Body small */
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+/* Neutral[400] */
+color: #717082;
+
+
+
+/* Support */
+
+position: absolute;
+width: 70px;
+height: 24px;
+left: 528px;
+top: 0px;
+
+/* Body title */
+font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 24px;
+/* identical to box height, or 133% */
+
+/* Neutral[500] */
+color: #2F2E41;
+
+
+
+/* Footer Column */
+
+position: static;
+width: 120px;
+height: 76px;
+left: 780px;
+top: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+margin: 0px 165px;
+
+
+/* Links */
+
+position: absolute;
+width: 120px;
+height: 32px;
+left: 780px;
+top: 44px;
+
+
+
+/* Social media icon */
+
+position: absolute;
+width: 32px;
+height: 32px;
+left: 780px;
+top: 44px;
+
+
+
+/* Rectangle 5 */
+
+position: absolute;
+width: 32px;
+height: 32px;
+left: 780px;
+top: 44px;
+
+/* Neutral[100] */
+background: #FFFFFF;
+border-radius: 1px;
+
+
+/* Vector */
+
+position: absolute;
+left: 86.32%;
+right: 12.8%;
+top: 28.43%;
+bottom: 64.24%;
+
+/* Neutral[300] */
+background: #9893A3;
+border-radius: 1px;
+
+
+/* Social media icon */
+
+position: absolute;
+width: 32px;
+height: 32px;
+left: 824px;
+top: 44px;
+
+
+
+/* Rectangle 5 */
+
+position: absolute;
+width: 32px;
+height: 32px;
+left: 824px;
+top: 44px;
+
+/* Neutral[100] */
+background: #FFFFFF;
+border-radius: 1px;
+
+
+/* brandico:twitter-bird */
+
+position: absolute;
+width: 15.52px;
+height: 12.6px;
+left: 832.73px;
+top: 53.7px;
+
+border-radius: 1px;
+
+
+/* Vector */
+
+position: absolute;
+left: -0.01%;
+right: 0.01%;
+top: 0%;
+bottom: 0%;
+
+/* Neutral[300] */
+background: #9893A3;
+
+
+/* Social media icon */
+
+position: absolute;
+width: 32px;
+height: 32px;
+left: 868px;
+top: 44px;
+
+
+
+/* Rectangle 5 */
+
+position: absolute;
+width: 32px;
+height: 32px;
+left: 868px;
+top: 44px;
+
+/* Neutral[100] */
+background: #FFFFFF;
+border-radius: 1px;
+
+
+/* brandico:twitter-bird */
+
+position: absolute;
+width: 15.52px;
+height: 12.6px;
+left: 876.73px;
+top: 53.7px;
+
+border-radius: 1px;
+
+
+/* Union */
+
+position: absolute;
+left: 10.04%;
+right: 8.93%;
+top: 4.67%;
+bottom: 4.65%;
+
+/* Neutral[300] */
+background: #9893A3;
+
+
+/* Get in touch */
+
+position: absolute;
+width: 107px;
+height: 24px;
+left: 781px;
+top: 0px;
+
+/* Body title */
+font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 24px;
+/* identical to box height, or 133% */
+
+/* Neutral[500] */
+color: #2F2E41;
+
+
+
+/* Main */
+
+/* Auto Layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px 129px;
+
+position: absolute;
+width: 464px;
+height: 350px;
+left: 11px;
+top: 230px;
+
+
+
+/* Section */
+
+/* Auto Layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+
+position: static;
+width: 482px;
+height: 350px;
+left: -9px;
+top: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 220px 0px;
+
+
+/* icon */
+
+position: static;
+width: 350px;
+height: 350px;
+left: 0px;
+top: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 180px;
+
+
+/* shadow */
+
+position: absolute;
+width: 350px;
+height: 350px;
+left: 0px;
+top: 0px;
+
+background: url(moon.png);
+opacity: 0.35;
+filter: blur(112px);
+
+
+/* Section Content */
+
+/* Auto Layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: static;
+left: 109.96%;
+right: -92.95%;
+top: 5.86%;
+bottom: 5.86%;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 180px;
+
+
+/* Enter Your City */
+
+position: static;
+width: 452px;
+left: calc(50% - 452px/2 + 26px);
+top: 0%;
+bottom: 79.29%;
+
+font-family: Manrope;
+font-style: normal;
+font-weight: bold;
+font-size: 60px;
+line-height: 64px;
+/* identical to box height, or 107% */
+letter-spacing: -1px;
+
+/* Neutral[500] */
+color: #2F2E41;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 24px 0px;
+
+
+/* Input/Search */
+
+position: static;
+height: 72px;
+left: 0px;
+right: -9px;
+top: 88px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 24px 0px;
+
+
+/* BG */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Gray/01 */
+background: #F6F6F6;
+/* Gray/02 */
+border: 1px solid #E8E8E8;
+box-sizing: border-box;
+border-radius: 100px;
+
+
+/* Search */
+
+position: absolute;
+width: 182px;
+height: 25px;
+left: 16px;
+top: calc(50% - 25px/2 + 0.5px);
+
+font-family: Manrope;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 25px;
+/* identical to box height */
+display: flex;
+align-items: center;
+
+/* Gray/03 */
+color: #BDBDBD;
+
+
+
+/* Icon/Send */
+
+position: absolute;
+visibility: hidden;
+width: nanpx;
+height: nanpx;
+left: 301px;
+top: 8px;
+
+
+
+/* Ellipse 4 */
+
+position: absolute;
+width: 34px;
+height: 34px;
+right: 8px;
+top: calc(50% - 34px/2);
+
+/* Green/Primary */
+background: #5DB075;
+
+
+/* Vector */
+
+position: absolute;
+width: 10px;
+height: 14px;
+right: 20px;
+top: calc(50% - 14px/2);
+
+/* White */
+border: 2px solid #FFFFFF;
+
+
+/* Link */
+
+/* Auto Layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: static;
+left: 0%;
+right: 75%;
+top: 59.55%;
+bottom: 33.33%;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+margin: 24px 0px;
+
+
+/* Group 4 */
+
+position: static;
+display: none;
+width: nanpx;
+height: nanpx;
+left: 0px;
+top: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 2px 0px;
+
+
+/* Line 3 */
+
+position: absolute;
+width: 100px;
+left: calc(50% - 100px/2);
+top: 100%;
+bottom: 0%;
+
+border: 10px solid rgba(197, 194, 255, 0.5);
+
+
+/* Frame 1 */
+
+/* Auto Layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px 5px;
+
+position: absolute;
+width: 100px;
+height: 20px;
+left: 0px;
+top: 0px;
+
+
+
+/* Learn more */
+
+position: static;
+width: 92px;
+left: calc(50% - 92px/2);
+top: 0%;
+bottom: 0%;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 20px;
+/* identical to box height, or 111% */
+letter-spacing: -1px;
+
+/* Neutral[500] */
+color: #2F2E41;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 10px;
+
+
+/* Section */
+
+/* Auto Layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+
+position: absolute;
+width: 482px;
+height: 350px;
+left: 2px;
+top: 481px;
+
+
+
+/* icon */
+
+position: static;
+width: 350px;
+height: 350px;
+left: 0px;
+top: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 180px;
+
+
+/* shadow */
+
+position: absolute;
+width: 350px;
+height: 350px;
+left: 0px;
+top: 0px;
+
+background: url(moon.png);
+opacity: 0.35;
+filter: blur(112px);
+
+
+/* Section Content */
+
+/* Auto Layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: static;
+left: 109.96%;
+right: -103.73%;
+top: 5.86%;
+bottom: 5.86%;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 180px;
+
+
+/* Pick The Date */
+
+position: static;
+width: 452px;
+left: calc(50% - 452px/2);
+top: 0%;
+bottom: 79.29%;
+
+font-family: Manrope;
+font-style: normal;
+font-weight: bold;
+font-size: 60px;
+line-height: 64px;
+/* identical to box height, or 107% */
+letter-spacing: -1px;
+
+/* Neutral[500] */
+color: #2F2E41;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 24px 0px;
+
+
+/* Group 37 */
+
+position: absolute;
+width: 1849px;
+height: 82px;
+left: 0px;
+top: 0px;
+
+
+
+/* Navbar */
+
+/* Auto Layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+
+position: absolute;
+width: 1339px;
+height: 22px;
+left: 510px;
+top: 25px;
+
+
+
+/* Links */
+
+/* Auto Layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+
+position: static;
+width: 406px;
+height: 22px;
+left: 466.5px;
+top: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 263px;
+
+
+/* Home */
+
+position: static;
+height: 22px;
+left: 0%;
+right: 87.93%;
+top: calc(50% - 22px/2);
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height */
+
+color: #9893A3;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 36px;
+
+
+/* Home */
+
+position: static;
+width: 116px;
+height: 22px;
+left: 85px;
+top: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 36px;
+
+
+/* Line 1 */
+
+position: absolute;
+width: 110px;
+height: 0px;
+left: 85.5px;
+top: 22px;
+
+/* Primary[300] */
+border: 4px solid #9E99FF;
+
+
+/* Weather Data */
+
+position: absolute;
+height: 22px;
+left: 20.94%;
+right: 50.49%;
+top: calc(50% - 22px/2);
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height */
+
+color: #2F2E41;
+
+
+
+/* Weather Prediction */
+
+position: static;
+height: 22px;
+left: 58.37%;
+right: 0%;
+top: calc(50% - 22px/2);
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height */
+
+/* Neutral[300] */
+color: #9893A3;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+margin: 0px 36px;
+
+
+/* Group 35 */
+
+position: absolute;
+width: 80px;
+height: 82px;
+left: 0px;
+top: 0px;
+
+
+
+/* Download free vector of Illustration of weather forecast icon 394816 1 */
+
+position: absolute;
+width: 80px;
+height: 82px;
+left: 0px;
+top: 0px;
+
+background: url(Download free vector of Illustration of weather forecast icon 394816.png);
+
+
+/* sun */
+
+position: absolute;
+width: 776px;
+height: 823px;
+left: -378px;
+top: 52px;
+
+
+
+/* shadow */
+
+position: absolute;
+width: 774.37px;
+height: 787.02px;
+left: -376.37px;
+top: 87.98px;
+
+background: url(sun.png);
+opacity: 0.3;
+filter: blur(128px);
+
+
+/* icon */
+
+position: absolute;
+width: 756.6px;
+height: 792.67px;
+left: -378px;
+top: 52px;
+
+background: url(sun.png);
+
+
+/* icon */
+
+position: absolute;
+width: 668px;
+height: 670px;
+left: 1098px;
+top: 1016px;
+
+
+
+/* shadow */
+
+position: absolute;
+width: 638.8px;
+height: 640.71px;
+left: 1127.2px;
+top: 1045.29px;
+
+background: url(moon.png);
+opacity: 0.35;
+filter: blur(112px);
+
+
+/* icon */
+
+position: absolute;
+width: 638.8px;
+height: 640.71px;
+left: 1098px;
+top: 1016px;
+
+background: url(moon.png);
+
+
+/* bookieTextField */
+
+/* Auto Layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 16px;
+
+position: absolute;
+width: 393px;
+height: 69px;
+left: 539px;
+top: 600px;
+
+/* 800 */
+border: 1px solid #37474F;
+box-sizing: border-box;
+border-radius: 20px;
+
+
+/* Option */
+
+position: static;
+width: 333px;
+height: 14px;
+left: 16px;
+top: 27.5px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 14px;
+/* identical to box height, or 78% */
+
+/* 800 */
+color: #37474F;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+margin: 0px 10px;
+
+
+/* navigation/arrow_drop_down_24px */
+
+position: static;
+width: 18px;
+height: 18px;
+left: 359px;
+top: 25.5px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 10px;
+
+
+/*  ↳Color */
+
+position: absolute;
+left: 29.17%;
+right: 29.17%;
+top: 41.67%;
+bottom: 37.5%;
+
+/* 800 */
+background: #37474F;
+
+
+/* Navbar */
+
+/* Auto Layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+
+position: absolute;
+width: 1339px;
+height: 28px;
+left: 67px;
+top: 186px;
+
+
+
+/* Links */
+
+/* Auto Layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+
+position: static;
+width: 409.67px;
+height: 28px;
+left: 464.67px;
+top: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 263px;
+
+
+/* Home */
+
+position: static;
+width: 98.67px;
+height: 28px;
+left: 0px;
+top: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 36px;
+
+
+/* Line 1 */
+
+position: absolute;
+width: 85px;
+height: 0px;
+left: 0px;
+top: 28px;
+
+border: 4px solid #DD933A;
+
+
+/* Weather Data */
+
+position: absolute;
+height: 22px;
+left: 0.41%;
+right: 75.92%;
+top: calc(50% - 22px/2 - 3px);
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height */
+
+color: #2F2E41;
+
+
+
+/* Weather Prediction */
+
+position: static;
+height: 22px;
+left: 32.87%;
+right: 39.79%;
+top: calc(50% - 22px/2 - 3px);
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height */
+
+/* Neutral[300] */
+color: #9893A3;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 36px;
+
+
+/* Weather Prediction */
+
+position: static;
+height: 22px;
+left: 69%;
+right: 0%;
+top: calc(50% - 22px/2 - 3px);
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height */
+
+/* Neutral[300] */
+color: #9893A3;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+margin: 0px 36px;
+
+
+/* Button */
+
+/* Auto Layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 30px;
+
+position: absolute;
+width: 399px;
+height: 73px;
+left: 539px;
+top: 772px;
+
+/* Primary[400] */
+background: #6C63FF;
+/* Primary[400] */
+border: 1px solid #6C63FF;
+box-sizing: border-box;
+border-radius: 20px;
+
+
+/* Get Started */
+
+position: static;
+width: 103px;
+height: 41px;
+left: calc(50% - 103px/2);
+top: calc(50% - 41px/2);
+
+font-family: Manrope;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 41px;
+/* identical to box height */
+text-align: center;
+
+/* Neutral[100] */
+color: #FFFFFF;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 10px;
