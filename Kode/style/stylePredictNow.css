@@ -42,39 +42,120 @@
 	line-height: 89px;
 }
 
+
+/*dropdown checkbox*/
+.dropdown-check-list {
+  display: inline-block;
+}
+
+.dropdown-check-list .anchor {
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  padding: 5px 50px 5px 10px;
+  border: 1px solid #ccc;
+}
+
+.dropdown-check-list .anchor:after {
+  position: absolute;
+  content: "";
+  border-left: 2px solid black;
+  border-top: 2px solid black;
+  padding: 5px;
+  right: 10px;
+  top: 20%;
+  -moz-transform: rotate(-135deg);
+  -ms-transform: rotate(-135deg);
+  -o-transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+}
+
+.dropdown-check-list .anchor:active:after {
+  right: 8px;
+  top: 21%;
+}
+
+.dropdown-check-list ul.items {
+  padding: 2px;
+  display: none;
+  margin: 0;
+  border: 1px solid #ccc;
+  border-top: none;
+  background-color: white;
+}
+
+.dropdown-check-list ul.items li {
+  list-style: none;
+}
+
+.dropdown-check-list.visible .anchor {
+  color: #0094ff;
+  background-color: #F2E15C;
+}
+
+.dropdown-check-list.visible .items {
+  display: block;
+}
+
+#list1{
+	align-items: center;
+	padding: 16px 16px 16px 24px;
+
+	position: absolute;
+	width: 285px;
+	height: 48px;
+	left: 581px;
+	top: 195px;
+}
+
+/*button*/
+button{
+	padding: 16px 30px;
+	position: absolute;
+	width: 175px;
+	height: 60px;
+	left: 900px;
+	top: 193px;
+	background-color: #6C63FF;
+	color: white;
+	border: 1px solid #6C63FF;
+	box-sizing: border-box;
+	border-radius: 20px;
+}
+
+.kelas{
+	position: absolute;
+	height: 72px;
+	left: 600px;
+	right: 493px;
+	top: 260px;
+}
+
+.kelas input{
+	margin-top: 10px;
+}
+
+.sun{
+	position: absolute;
+	width: 576px;
+	height: 623px;
+	left: 0px;
+	top: 52px;
+}
+
+.moon{
+	position: absolute;
+	width: 668px;
+	height: 670px;
+	left: 1000px;
+	top: 740px;
+}
+
 .footer{
 	position: absolute;
 	width: 1400px;
 	height: 580px;
 	left: 0px;
 	top: 912px;
-}
-
-
-.mainmenubtn {
-    border: none;
-    cursor: pointer;
-    padding:20px;
-    margin-top:20px;
-}
-.mainmenubtn:hover {
-    background-color: yellow;
-    }
-.drop {
-    position: relative;
-    display: inline-block;
-}
-.dropdown-child {
-    display: none;
-    background-color: white;
-    min-width: 200px;
-}
-.dropdown-child a {
-    color: blue;
-    padding: 20px;
-    text-decoration: none;
-    display: block;
-}
-.drop:hover .dropdown-child {
-    display: block;
 }
