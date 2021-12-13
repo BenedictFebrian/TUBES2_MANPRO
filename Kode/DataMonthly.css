@@ -1,0 +1,153 @@
+.home, .data{
+	color: gray;
+}
+
+.topnav{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+
+	position: static;
+	width: 1339px;
+	height: 32px;
+	left: 510px;
+	order: 1;
+}
+
+.topnav-right{
+	position: static;
+	margin-left: 770px;
+}
+
+.topnav .gambar{
+	position: static;
+	width: 80px;
+	height: 82px;
+	order: 0;
+	margin: 0px 5px -25px;
+}
+
+.back{
+	position: absolute;
+	text-decoration: none;
+	width: 70px;
+	height: 24px;
+	left: 28px;
+	top: 95px;
+}
+
+.pertama p b{
+	position: absolute;
+	width: 588px;
+	height: 82px;
+	left: -80px;
+	top: -165px;
+
+	font-family: Manrope;
+	font-style: normal;
+	font-size: 65px;
+	line-height: 89px;
+}
+
+.pertama .rain{
+	position: absolute;
+	width: 280px;
+	height: 74px;
+	left: 227px;
+	top: 299px;
+
+	font-family: Manrope;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 64px;
+	line-height: 87px;
+}
+
+.pertama p{
+	position: absolute;
+	width: 475px;
+	height: 33px;
+	left: 181px;
+	top: 403px;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	line-height: 42px;
+}
+
+.gambar{
+	position: absolute;
+	width: 386px;
+	height: 368px;
+	left: 793px;
+	top: 183px;
+
+}
+
+.gambar2{
+	position: absolute;
+	width: 386px;
+	height: 368px;
+	left: 180px;
+	top: 590px;
+}
+
+.kedua p b{
+	position: absolute;
+	width: 747px;
+	height: 74px;
+	left: -170px;
+	top: -150px;
+
+	font-family: Manrope;
+	font-style: normal;
+	font-size: 65px;
+	line-height: 89px;
+}
+
+.kedua .not{
+	position: absolute;
+	width: 352px;
+	height: 72px;
+	left: 843px;
+	top: 713px;
+
+	font-family: Manrope;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 64px;
+	line-height: 87px;
+}
+
+.kedua p{
+	position: absolute;
+	width: 475px;
+	height: 33px;
+	left: 838px;
+	top: 815px;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	line-height: 42px;
+}
+
+.footer{
+	position: absolute;
+	width: 1440px;
+	height: 524px;
+	left: -20px;
+	top: 916px;
+}
+
+.moon{
+	position: absolute;
+	width: 168px;
+	height: 170px;
+	left: 970px;
+	top: 750px;
+}
