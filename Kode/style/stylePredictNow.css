@@ -33,7 +33,7 @@
 	width: 721px;
 	height: 82px;
 	left: 500px;
-	top: 20px;
+	top: 50px;
 
 	font-family: Manrope;
 	font-style: normal;
@@ -43,8 +43,72 @@
 }
 
 
+/*button*/
+button{
+	padding: 16px 30px;
+	position: absolute;
+	width: 175px;
+	height: 60px;
+	left: 750px;
+	top: 600px;
+	background-color: #6C63FF;
+	color: white;
+	border: 1px solid #6C63FF;
+	box-sizing: border-box;
+	border-radius: 20px;
+}
+
+.kelas{
+	position: absolute;
+	height: 10px;
+	left: 500px;
+	right: 400px;
+	top: 270px;
+}
+
+#atribut{
+	margin-bottom: 40px;
+}
+
+.satu {
+	margin-left: 85px;
+}
+
+.dua{
+	margin-left: 70px;
+}
+
+.tiga{
+	margin-left: 10px;
+}
+
+.sun{
+	position: absolute;
+	width: 576px;
+	height: 623px;
+	left: 0px;
+	top: 52px;
+}
+
+.moon{
+	position: absolute;
+	width: 668px;
+	height: 670px;
+	left: 1000px;
+	top: 740px;
+}
+
+.footer{
+	position: absolute;
+	width: 1400px;
+	height: 580px;
+	left: 0px;
+	top: 912px;
+}
+
+
 /*dropdown checkbox*/
-.dropdown-check-list {
+/*.dropdown-check-list {
   display: inline-block;
 }
 
@@ -107,55 +171,4 @@
 	height: 48px;
 	left: 581px;
 	top: 195px;
-}
-
-/*button*/
-button{
-	padding: 16px 30px;
-	position: absolute;
-	width: 175px;
-	height: 60px;
-	left: 900px;
-	top: 193px;
-	background-color: #6C63FF;
-	color: white;
-	border: 1px solid #6C63FF;
-	box-sizing: border-box;
-	border-radius: 20px;
-}
-
-.kelas{
-	position: absolute;
-	height: 72px;
-	left: 600px;
-	right: 493px;
-	top: 260px;
-}
-
-.kelas input{
-	margin-top: 10px;
-}
-
-.sun{
-	position: absolute;
-	width: 576px;
-	height: 623px;
-	left: 0px;
-	top: 52px;
-}
-
-.moon{
-	position: absolute;
-	width: 668px;
-	height: 670px;
-	left: 1000px;
-	top: 740px;
-}
-
-.footer{
-	position: absolute;
-	width: 1400px;
-	height: 580px;
-	left: 0px;
-	top: 912px;
-}
+}*/
