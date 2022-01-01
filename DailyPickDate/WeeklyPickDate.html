@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Daily Pick Date</title>
+    <title>Weekly Pick Date</title>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link href="style/style.css" type="text/css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -41,8 +41,13 @@
             <p>Pick The Date</p>
         </div>
         <div>
-            <form action="/action_page.php" class="inputPickMonth">
-                <input type="date" id="tanggal" name="tanggal">
+            <form action="/action_page.php" class="inputPickStart">
+                <label for="rain">Start Date:</label><br>
+                <input type="date" id="startTanggal" name="startTanggal">
+            </form>
+            <form action="/action_page.php" class="inputPickEnd">
+                <label for="rain">End Date:</label><br>
+                <input type="date" id="EndTanggal" name="endTanggal">
             </form>
         </div>
         <div class="Search">
