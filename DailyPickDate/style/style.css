@@ -1,0 +1,247 @@
+.home,
+.data {
+    color: gray;
+}
+
+.topnav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: static;
+    width: 1339px;
+    height: 32px;
+    left: 510px;
+    order: 1;
+    font-family: Manrope;
+}
+
+.navData {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    width: 1339px;
+    height: 32px;
+    top: 150px;
+    left: 535px;
+    order: 1;
+    font-family: Manrope;
+}
+
+.topnav-right {
+    position: static;
+    margin-left: 770px;
+}
+
+.topnav .gambar {
+    position: static;
+    width: 80px;
+    height: 82px;
+    order: 0;
+    margin: 0px 5px -25px;
+}
+
+.EnterCity {
+    position: absolute;
+    width: 721px;
+    height: 82px;
+    left: 540px;
+    top: 150px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 89px;
+}
+
+.inputKota {
+    position: absolute;
+    height: 10px;
+    left: 530px;
+    right: 400px;
+    top: 300px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-family: Manrope;
+}
+
+.PickDate {
+    position: absolute;
+    width: 721px;
+    height: 82px;
+    left: 550px;
+    top: 350px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 89px;
+}
+
+.inputPick {
+    position: absolute;
+    height: 10px;
+    left: 630px;
+    right: 400px;
+    top: 500px;
+    border-radius: 20px;
+    font-family: Manrope;
+}
+
+.inputPickStart {
+    position: absolute;
+    height: 10px;
+    left: 530px;
+    right: 400px;
+    top: 500px;
+    border-radius: 20px;
+    font-family: Manrope;
+}
+
+.inputPickEnd {
+    position: absolute;
+    height: 10px;
+    left: 720px;
+    right: 400px;
+    top: 500px;
+    border-radius: 20px;
+    font-family: Manrope;
+}
+
+.inputPickMonth {
+    position: absolute;
+    height: 10px;
+    left: 615px;
+    right: 400px;
+    top: 500px;
+    border-radius: 20px;
+    font-family: Manrope;
+}
+
+
+/*button*/
+
+button {
+    padding: 16px 30px;
+    position: absolute;
+    width: 175px;
+    height: 60px;
+    left: 620px;
+    top: 600px;
+    background-color: #6C63FF;
+    color: white;
+    border: 1px solid #6C63FF;
+    box-sizing: border-box;
+    border-radius: 20px;
+    font-family: Manrope;
+}
+
+#atribut {
+    margin-bottom: 40px;
+}
+
+.satu {
+    margin-left: 85px;
+}
+
+.dua {
+    margin-left: 70px;
+}
+
+.tiga {
+    margin-left: 10px;
+}
+
+.sun {
+    position: absolute;
+    width: 576px;
+    height: 623px;
+    left: 0px;
+    top: 52px;
+}
+
+.moon {
+    position: absolute;
+    width: 668px;
+    height: 670px;
+    left: 1000px;
+    top: 740px;
+}
+
+.footer {
+    position: absolute;
+    width: 1400px;
+    height: 580px;
+    left: 0px;
+    top: 912px;
+}
+
+
+/*dropdown checkbox*/
+
+
+/*.dropdown-check-list {
+  display: inline-block;
+}
+
+.dropdown-check-list .anchor {
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  padding: 5px 50px 5px 10px;
+  border: 1px solid #ccc;
+}
+
+.dropdown-check-list .anchor:after {
+  position: absolute;
+  content: "";
+  border-left: 2px solid black;
+  border-top: 2px solid black;
+  padding: 5px;
+  right: 10px;
+  top: 20%;
+  -moz-transform: rotate(-135deg);
+  -ms-transform: rotate(-135deg);
+  -o-transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+}
+
+.dropdown-check-list .anchor:active:after {
+  right: 8px;
+  top: 21%;
+}
+
+.dropdown-check-list ul.items {
+  padding: 2px;
+  display: none;
+  margin: 0;
+  border: 1px solid #ccc;
+  border-top: none;
+  background-color: white;
+}
+
+.dropdown-check-list ul.items li {
+  list-style: none;
+}
+
+.dropdown-check-list.visible .anchor {
+  color: #0094ff;
+  background-color: #F2E15C;
+}
+
+.dropdown-check-list.visible .items {
+  display: block;
+}
+
+#list1{
+	align-items: center;
+	padding: 16px 16px 16px 24px;
+
+	position: absolute;
+	width: 285px;
+	height: 48px;
+	left: 581px;
+	top: 195px;
+}*/
