@@ -1,0 +1,484 @@
+.home,
+.data {
+    color: gray;
+}
+
+.topnav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: static;
+    width: 1339px;
+    height: 32px;
+    left: 510px;
+    order: 1;
+    font-family: Manrope;
+}
+
+.navData {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    width: 1339px;
+    height: 32px;
+    top: 150px;
+    left: 300px;
+    order: 1;
+    font-family: Manrope;
+}
+
+.topnav-right {
+    position: static;
+    margin-left: 770px;
+}
+
+.topnav .gambar {
+    position: static;
+    width: 80px;
+    height: 82px;
+    order: 0;
+    margin: 0px 5px -25px;
+}
+
+.EnterCity {
+    position: absolute;
+    width: 721px;
+    height: 82px;
+    left: 540px;
+    top: 150px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 89px;
+}
+
+.CityName {
+    position: absolute;
+    width: 721px;
+    height: 82px;
+    left: 300px;
+    top: 150px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 89px;
+}
+
+.inputKota {
+    position: absolute;
+    height: 10px;
+    left: 530px;
+    right: 400px;
+    top: 300px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-family: Manrope;
+}
+
+.urutan{
+    margin-left: 20%;
+    margin-top: 21%;
+}
+
+.Mon {
+    display: flex;
+    width: 175px;
+    height: 60px;
+    left: 620px;
+    top: 700px;
+}
+
+.Tue {
+    display: flex;
+    width: 175px;
+    height: 60px;
+    left: 620px;
+    top: 600px;
+}
+
+.Wed {
+    display: flex;
+    width: 175px;
+    height: 60px;
+    left: 620px;
+    top: 600px;
+}
+
+.Thu {
+    display: flex;
+    width: 175px;
+    height: 60px;
+    left: 620px;
+    top: 600px;
+}
+
+.Fri {
+    display: flex;
+    width: 175px;
+    height: 60px;
+    left: 620px;
+    top: 600px;
+}
+
+.Sat {
+    display: flex;
+    width: 175px;
+    height: 60px;
+    left: 620px;
+    top: 600px;
+}
+
+.Sun {
+    display: flex;
+    width: 175px;
+    height: 60px;
+    left: 620px;
+    top: 600px;
+}
+
+.Day {
+    padding: 16px 30px;
+/*    position: absolute;*/
+    width: 175px;
+    height: 60px;
+    left: 620px;
+    top: 400px;
+    background-color: #2B303E;
+    color: white;
+    box-sizing: border-box;
+    border-radius: 20px;
+    font-family: Manrope;
+}
+
+a button{
+    padding: 16px 30px;
+    width: 175px;
+    height: 60px;
+    left: 620px;
+    top: 600px;
+    background-color: #6C63FF;
+    color: white;
+    border: 1px solid #6C63FF;
+    box-sizing: border-box;
+    border-radius: 20px;
+    font-family: Manrope
+}
+
+.PickDate {
+    position: absolute;
+    width: 721px;
+    height: 82px;
+    left: 550px;
+    top: 350px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 89px;
+}
+
+.inputPick {
+    position: absolute;
+    height: 10px;
+    left: 630px;
+    right: 400px;
+    top: 500px;
+    border-radius: 20px;
+    font-family: Manrope;
+}
+
+.inputPickStart {
+    position: absolute;
+    height: 10px;
+    left: 530px;
+    right: 400px;
+    top: 500px;
+    border-radius: 20px;
+    font-family: Manrope;
+}
+
+.inputPickEnd {
+    position: absolute;
+    height: 10px;
+    left: 720px;
+    right: 400px;
+    top: 500px;
+    border-radius: 20px;
+    font-family: Manrope;
+}
+
+.inputPickStartData {
+    position: absolute;
+    height: 10px;
+    left: 530px;
+    right: 400px;
+    top: 230px;
+    border-radius: 20px;
+    font-family: Manrope;
+}
+
+.inputPickEndData {
+    position: absolute;
+    height: 10px;
+    left: 720px;
+    right: 400px;
+    top: 230px;
+    border-radius: 20px;
+    font-family: Manrope;
+}
+
+.inputPickMonth {
+    position: absolute;
+    height: 10px;
+    left: 615px;
+    right: 400px;
+    top: 500px;
+    border-radius: 20px;
+    font-family: Manrope;
+}
+
+
+/*button*/
+
+button {
+    padding: 16px 30px;
+    position: absolute;
+    width: 175px;
+    height: 60px;
+    left: 620px;
+    top: 600px;
+    background-color: #6C63FF;
+    color: white;
+    border: 1px solid #6C63FF;
+    box-sizing: border-box;
+    border-radius: 20px;
+    font-family: Manrope;
+}
+
+#atribut {
+    margin-bottom: 40px;
+}
+
+.satu {
+    margin-left: 85px;
+}
+
+.dua {
+    margin-left: 70px;
+}
+
+.tiga {
+    margin-left: 10px;
+}
+
+.sun {
+    position: absolute;
+    width: 576px;
+    height: 623px;
+    left: 1000px;
+    top: 52px;
+}
+
+.moon {
+    position: absolute;
+    width: 668px;
+    height: 670px;
+    left: 0px;
+    top: 500px;
+}
+
+.footer {
+    position: absolute;
+    width: 2000px;
+    height: 580px;
+    left: 0px;
+    top: 912px;
+}
+
+#calendar {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+#calendar tr,
+#calendar tbody {
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    width: 100%;
+}
+
+caption {
+    text-align: center;
+    grid-column: 1 / -1;
+    font-size: 130%;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+#calendar a {
+    color: #8e352e;
+    text-decoration: none;
+}
+
+#calendar td,
+#calendar th {
+    padding: 5px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+}
+
+#calendar .weekdays {
+    background: #8e352e;
+}
+
+#calendar .weekdays th {
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 20px;
+    border: none !important;
+    padding: 10px 6px;
+    color: #fff;
+    font-size: 13px;
+}
+
+#calendar td {
+    min-height: 180px;
+    display: flex;
+    flex-direction: column;
+}
+
+#calendar .days li:hover {
+    background: #d3d3d3;
+}
+
+#calendar .date {
+    text-align: center;
+    margin-bottom: 5px;
+    padding: 4px;
+    background: #333;
+    color: #fff;
+    width: 20px;
+    border-radius: 50%;
+    flex: 0 0 auto;
+    align-self: flex-end;
+}
+
+#calendar .event {
+    flex: 0 0 auto;
+    font-size: 13px;
+    border-radius: 4px;
+    padding: 5px;
+    margin-bottom: 5px;
+    line-height: 14px;
+    background: #e4f2f2;
+    border: 1px solid #b5dbdc;
+    color: #009aaf;
+    text-decoration: none;
+}
+
+#calendar .event-desc {
+    color: #666;
+    margin: 3px 0 7px 0;
+    text-decoration: none;
+}
+
+#calendar .other-month {
+    background: #f5f5f5;
+    color: #666;
+}
+
+
+/* ============================
+				Mobile Responsiveness
+   ============================*/
+
+@media(max-width: 768px) {
+    #calendar .weekdays,
+    #calendar .other-month {
+        display: none;
+    }
+    #calendar li {
+        height: auto !important;
+        border: 1px solid #ededed;
+        width: 100%;
+        padding: 10px;
+        margin-bottom: -1px;
+    }
+    #calendar,
+    #calendar tr,
+    #calendar tbody {
+        grid-template-columns: 1fr;
+    }
+    #calendar tr {
+        grid-column: 1 / 2;
+    }
+    #calendar .date {
+        align-self: flex-start;
+    }
+}
+
+
+/*dropdown checkbox*/
+
+
+/*.dropdown-check-list {
+  display: inline-block;
+}
+.dropdown-check-list .anchor {
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  padding: 5px 50px 5px 10px;
+  border: 1px solid #ccc;
+}
+.dropdown-check-list .anchor:after {
+  position: absolute;
+  content: "";
+  border-left: 2px solid black;
+  border-top: 2px solid black;
+  padding: 5px;
+  right: 10px;
+  top: 20%;
+  -moz-transform: rotate(-135deg);
+  -ms-transform: rotate(-135deg);
+  -o-transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+}
+.dropdown-check-list .anchor:active:after {
+  right: 8px;
+  top: 21%;
+}
+.dropdown-check-list ul.items {
+  padding: 2px;
+  display: none;
+  margin: 0;
+  border: 1px solid #ccc;
+  border-top: none;
+  background-color: white;
+}
+.dropdown-check-list ul.items li {
+  list-style: none;
+}
+.dropdown-check-list.visible .anchor {
+  color: #0094ff;
+  background-color: #F2E15C;
+}
+.dropdown-check-list.visible .items {
+  display: block;
+}
+#list1{
+	align-items: center;
+	padding: 16px 16px 16px 24px;
+	position: absolute;
+	width: 285px;
+	height: 48px;
+	left: 581px;
+	top: 195px;
+}*/
