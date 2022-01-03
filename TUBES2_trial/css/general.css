@@ -1,0 +1,20 @@
+:root {
+	/* Theme Color */
+	--primary_bg_color: #FFFFFF;	/* putih */
+	--secondary_bg_color: #2F2E41;	/* ungu tua */
+	--tertiary_bg_color: #F2DD58;	/* kuning */
+
+	/* Font Color */
+	--primary_font_color: #2F2E41;		/* ungu tua */
+	--secondary_font_color: #9893A3;	/* ungu pudar */
+	--tertiary_font_color: #FFFFFF;		/* putih */
+
+	/* Else */
+	--action_button: #6C63FF;	/* biru */
+	--highlight: #9E99FF;		/* ungu stabillo */
+	--footer: #ECEBFF;			/* ungu muda */
+}
+
+body {
+	/*font-family: ;*/
+}
