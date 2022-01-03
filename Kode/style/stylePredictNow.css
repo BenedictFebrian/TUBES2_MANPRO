@@ -33,7 +33,7 @@
 	width: 721px;
 	height: 82px;
 	left: 500px;
-	top: 20px;
+	top: 50px;
 
 	font-family: Manrope;
 	font-style: normal;
@@ -42,39 +42,50 @@
 	line-height: 89px;
 }
 
+.predict1{
+	position: absolute;
+	height: 10px;
+	left: 500px;
+	right: 300px;
+	top: 270px;
+}
+
+.satu{
+	margin-bottom: 40px;
+}
+
+#rainfall {
+	margin-left: 85px;
+}
+
+#humidity9, #humidity3{
+	margin-left: 10px;
+}
+
+.gambar{
+	left: 200px;
+}
+
+.sun{
+	position: absolute;
+	width: 576px;
+	height: 623px;
+	left: 0px;
+	top: 52px;
+}
+
+.moon{
+	position: absolute;
+	width: 668px;
+	height: 670px;
+	left: 1000px;
+	top: 175%;
+}
+
 .footer{
 	position: absolute;
 	width: 1400px;
 	height: 580px;
 	left: 0px;
-	top: 912px;
-}
-
-
-.mainmenubtn {
-    border: none;
-    cursor: pointer;
-    padding:20px;
-    margin-top:20px;
-}
-.mainmenubtn:hover {
-    background-color: yellow;
-    }
-.drop {
-    position: relative;
-    display: inline-block;
-}
-.dropdown-child {
-    display: none;
-    background-color: white;
-    min-width: 200px;
-}
-.dropdown-child a {
-    color: blue;
-    padding: 20px;
-    text-decoration: none;
-    display: block;
-}
-.drop:hover .dropdown-child {
-    display: block;
+	top: 200%;
 }

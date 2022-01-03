@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Weekly Pick Date</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="style/style.css" type="text/css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="topnav">
+        <div class="gambar">
+            <a href="landingPage.html"><img src="Gambar/logo.png">
+        </div>
+        <div class="topnav-right">
+            <a href="landingPage.html" class="w3-bar-item w3-button home"><b>Home<b></a>
+            <a href="DailyPickDate.html" class="w3-bar-item w3-button data">Weather Data</a>
+            <a href="predictNow.html" class="w3-bar-item w3-button predict">Weather Prediction</a>
+        </div>
+    </div>
+    <div>
+        <div class="navData">
+            <a href="DailyPickDate.html" class="w3-bar-item w3-button home"><b>Daily Data<b></a>
+            <a href="WeeklyPickDate.html" class="w3-bar-item w3-button data">Weekly Data</a>
+            <a href="MonthlyPickDate.html" class="w3-bar-item w3-button predict">Monthly Data</a>
+        </div>
+
+        <div class="EnterCity">
+            <p>Enter Your City</p>
+        </div>
+
+        <form class="inputKota">
+            <input type="text" class="satu" id="kota" name="kota" placeholder="Input Your City Here..."><br>
+        </form>
+
+        <div class="PickDate">
+            <p>Pick The Date</p>
+        </div>
+        <div>
+            <form action="/action_page.php" class="inputPickStart">
+                <label for="rain">Start Date:</label><br>
+                <input type="date" id="startTanggal" name="startTanggal">
+            </form>
+            <form action="/action_page.php" class="inputPickEnd">
+                <label for="rain">End Date:</label><br>
+                <input type="date" id="EndTanggal" name="endTanggal">
+            </form>
+        </div>
+        <div class="Search">
+            <a href="thePrediction.html"><button>Search</button></a>
+        </div>
+    </div>
+    <div class="sun">
+        <img src="Gambar/sun2.png">
+    </div>
+
+    <div class="footer">
+        <img src="Gambar/Footer.png">
+    </div>
+
+    <div class="moon">
+        <img src="Gambar/moon2.png">
+    </div>
+
+    <script>
+        var checkList = document.getElementById('list1');
+        checkList.getElementsByClassName('anchor')[0].onclick = function(evt) {
+            if (checkList.classList.contains('visible'))
+                checkList.classList.remove('visible');
+            else
+                checkList.classList.add('visible');
+        }
+    </script>
+</body>
+
+</html>
