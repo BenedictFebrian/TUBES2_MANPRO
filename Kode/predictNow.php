@@ -22,39 +22,57 @@
 			<p>Predict Your Weather</p>
 		</div>
 
-		<div>
-		<form class="kelas" action={{url_for('predictNow')}} method="POST">
-		
-			<label for="rain">Rainfall:</label>
-  			<input type="text" class="satu" id="atribut" name="atribut1" placeholder="Prediction Data Atribut"><br>
+		<div class="predict1">
+			<form class="kelas" action="controller.php" method="GET">
+			
+				<label for="rain">Rainfall:</label>
+	  			<input type="text" class="satu" id="rainfall" name="atribut1" placeholder="Nilai Prediction (mm)"><br>
 
-  			<label for="huma1">Humidity at 9AM:</label>
-  			<input type="text" class="tiga" id="atribut" name="atribut2" placeholder="Prediction Data Atribut"><br>
+	  			<label for="huma1">Humidity at 9AM:</label>
+	  			<input type="text" class="satu" id="humidity9" name="atribut2" placeholder="Nilai Prediction (%)"><br>
 
-  			<label for="huma2">Humidity at 3PM:</label>
-  			<input type="text" class="tiga" id="atribut" name="atribut3" placeholder="Prediction Data Atribut"><br>
+	  			<label for="huma2">Humidity at 3PM:</label>
+	  			<input type="text" class="satu" id="humidity3" name="atribut3" placeholder="Nilai Prediction (%)">
 
-  			<label for="sunshine">Sunshine:</label>
-  			<input type="text" class="dua" id="atribut" name="atribut4" placeholder="Prediction Data Atribut">
-		</form>
+	  			<br>
+	  			<input type="submit" name="Submit" value="Predict" style="width: 20%; margin-left: 20%;">
+			</form>
 
-		<div class="tombol">
-			<a href="thePrediction.php"><button type="submit">Predict Now!</button></a>
+			<br><br><br><br>
+
+			<div class="predictResult">
+				<?php
+					if (isset($_GET['resultToday'])) {
+						if ($_GET['resultToday'] == 1) {
+							echo "
+							<img src=\"Gambar/todayPredict.png\" style=\"width: 150%\">
+							";
+						}
+						else if ($_GET['resultToday'] == 0){
+							echo "
+							<img src=\"Gambar/todayPredict1.png\" style=\"width: 150%\">
+							";
+						}
+					}
+
+					echo"<br><br><br><br>";
+
+					if(isset($_GET['resultTommorow'])){
+						if ($_GET['resultTommorow'] == 0){
+							echo "
+							<img src=\"Gambar/tommorowPredict.png\" style=\"width: 150%\">
+							";
+						}
+						else if ($_GET['resultTommorow'] == 1) {
+							echo "
+							<img src=\"Gambar/tommorowPredict1.png\" style=\"width: 150%\">
+							";
+						}
+					}
+				?>
+			</div>
 		</div>
 
-		<!-- <?php
-	        // if(isset($_GET["atribut1"]) && isset($_GET["atribut2"]) && isset($_GET["atribut3"]) && isset($_GET["atribut4"])){
-	        // 	   $a=$_GET["atribut1"];
-	        //     $b=$_GET["atribut2"];
-	        //     $c=$_GET["atribut3"];
-	        //     $d=$_GET["atribut4"];
-	        
-	        //     $tmp = exec("C:/xampp/htdocs/catherine/predict/python C:/xampp/htdocs/catherine/predict/model.py 2>&1".$a." ".$b." ".$c." ".$d);
-	        // }
-	    ?> -->
-		</div>
-
-		
 
 		<div class="sun">
 			<img src="Gambar/sun2.png">
