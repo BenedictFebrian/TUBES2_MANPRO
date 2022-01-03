@@ -50,7 +50,7 @@
 						}
 						else if ($_GET['resultToday'] == 0){
 							echo "
-							<img src=\"Gambar/todayPredict1.png\" style=\"width: 150%\">
+							<img src=\"Gambar/todayPrediction.png\" style=\"width: 150%\">
 							";
 						}
 					}
@@ -65,7 +65,7 @@
 						}
 						else if ($_GET['resultTommorow'] == 1) {
 							echo "
-							<img src=\"Gambar/tommorowPredict1.png\" style=\"width: 150%\">
+							<img src=\"Gambar/tommorowPrediction.png\" style=\"width: 150%\">
 							";
 						}
 					}
