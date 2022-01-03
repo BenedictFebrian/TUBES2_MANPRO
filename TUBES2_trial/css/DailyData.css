@@ -50,21 +50,35 @@ body {
 	display: inline-block;
 	padding-left: 50px;
 	padding-right: 100px;
-	width: 50%;
+	width: 40%;
+}
+
+.morning img {
+	display: inline-block;
+	height: 100px;
+	width: 100px;
+	padding-right: 25px;
+}
+
+.morning .more_info {
+	display: inline-block;
 }
 
 .content .afternoon {
 	display: inline-block;
+	padding-left: 50px;
+	padding-right: 100px;
+	width: 40%;
 }
 
-.morning img {
- display: inline-block;
- height: 100px;
- width: 100px;
- padding-right: 25px;
+.afternoon img {
+	display: inline-block;
+	height: 100px;
+	width: 100px;
+	padding-right: 25px;
 }
 
-.morning .more_info {
+.afternoon .more_info {
 	display: inline-block;
 }
 
