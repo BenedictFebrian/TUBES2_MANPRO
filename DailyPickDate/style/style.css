@@ -215,6 +215,16 @@
     font-family: Manrope;
 }
 
+.inputPickMonthData {
+    position: absolute;
+    height: 10px;
+    left: 615px;
+    right: 400px;
+    top: 235px;
+    border-radius: 20px;
+    font-family: Manrope;
+}
+
 
 /*button*/
 
@@ -249,6 +259,22 @@ button {
     margin-left: 10px;
 }
 
+.sun2 {
+    position: absolute;
+    width: 576px;
+    height: 623px;
+    left: 0px;
+    top: 52px;
+}
+
+.moon2 {
+    position: absolute;
+    width: 168px;
+    height: 170px;
+    left: 970px;
+    top: 750px;
+}
+
 .sun {
     position: absolute;
     width: 576px;
@@ -262,28 +288,40 @@ button {
     width: 668px;
     height: 670px;
     left: 0px;
-    top: 500px;
+    top: 600px;
 }
 
 .footer {
     position: absolute;
+    width: 1400px;
+    height: 580px;
+    left: 0px;
+    top: 200%;
+}
+
+.footer2 {
+    position: absolute;
     width: 2000px;
     height: 580px;
     left: 0px;
-    top: 912px;
+    top: 1100px;
 }
 
 #calendar {
-    width: 100%;
+    position: absolute;
+    width: 800px;
+    height: 500px;
+    top: 300px;
+    left: 350px;
     display: grid;
-    grid-template-columns: repeat(7, 1fr);
+    grid-template-columns: repeat(7, 100px);
 }
 
 #calendar tr,
 #calendar tbody {
     grid-column: 1 / -1;
     display: grid;
-    grid-template-columns: repeat(7, 1fr);
+    grid-template-columns: repeat(7, 100px);
     width: 100%;
 }
 
@@ -296,7 +334,6 @@ caption {
 }
 
 #calendar a {
-    color: #8e352e;
     text-decoration: none;
 }
 
@@ -304,11 +341,6 @@ caption {
 #calendar th {
     padding: 5px;
     box-sizing: border-box;
-    border: 1px solid #ccc;
-}
-
-#calendar .weekdays {
-    background: #8e352e;
 }
 
 #calendar .weekdays th {
@@ -317,12 +349,12 @@ caption {
     line-height: 20px;
     border: none !important;
     padding: 10px 6px;
-    color: #fff;
+    color: #0000;
     font-size: 13px;
 }
 
 #calendar td {
-    min-height: 180px;
+    min-height: 100px;
     display: flex;
     flex-direction: column;
 }
@@ -335,12 +367,12 @@ caption {
     text-align: center;
     margin-bottom: 5px;
     padding: 4px;
-    background: #333;
-    color: #fff;
+    color: black;
     width: 20px;
     border-radius: 50%;
     flex: 0 0 auto;
     align-self: flex-end;
+    z-index: 99;
 }
 
 #calendar .event {
@@ -350,9 +382,9 @@ caption {
     padding: 5px;
     margin-bottom: 5px;
     line-height: 14px;
-    background: #e4f2f2;
-    border: 1px solid #b5dbdc;
-    color: #009aaf;
+    background: #F3E86D;
+    border: 1px solid #F3E86D;
+    color: #F3E86D;
     text-decoration: none;
 }
 
