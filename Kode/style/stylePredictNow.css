@@ -42,23 +42,7 @@
 	line-height: 89px;
 }
 
-
-/*button*/
-button{
-	padding: 16px 30px;
-	position: absolute;
-	width: 175px;
-	height: 60px;
-	left: 750px;
-	top: 600px;
-	background-color: #6C63FF;
-	color: white;
-	border: 1px solid #6C63FF;
-	box-sizing: border-box;
-	border-radius: 20px;
-}
-
-.kelas{
+.predict1{
 	position: absolute;
 	height: 10px;
 	left: 500px;
@@ -66,20 +50,20 @@ button{
 	top: 270px;
 }
 
-#atribut{
+.satu{
 	margin-bottom: 40px;
 }
 
-#atribut1 {
+#rainfall {
 	margin-left: 85px;
 }
 
-#atribut4{
-	margin-left: 70px;
+#humidity9, #humidity3{
+	margin-left: 10px;
 }
 
-#atribut2, #atribut3{
-	margin-left: 10px;
+.gambar{
+	left: 200px;
 }
 
 .sun{
@@ -95,7 +79,7 @@ button{
 	width: 668px;
 	height: 670px;
 	left: 1000px;
-	top: 740px;
+	top: 175%;
 }
 
 .footer{
@@ -103,5 +87,5 @@ button{
 	width: 1400px;
 	height: 580px;
 	left: 0px;
-	top: 912px;
+	top: 200%;
 }
