@@ -24,7 +24,7 @@
     width: 1339px;
     height: 32px;
     top: 150px;
-    left: 535px;
+    left: 300px;
     order: 1;
     font-family: Manrope;
 }
@@ -55,6 +55,19 @@
     line-height: 89px;
 }
 
+.CityName {
+    position: absolute;
+    width: 721px;
+    height: 82px;
+    left: 300px;
+    top: 150px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 89px;
+}
+
 .inputKota {
     position: absolute;
     height: 10px;
@@ -63,6 +76,69 @@
     top: 300px;
     border-radius: 20px;
     font-size: 15px;
+    font-family: Manrope;
+}
+
+.Mon {
+    width: 175px;
+    height: 60px;
+    left: 620px;
+    top: 600px;
+}
+
+.Tue {
+    width: 175px;
+    height: 60px;
+    left: 620px;
+    top: 600px;
+}
+
+.Wed {
+    width: 175px;
+    height: 60px;
+    left: 620px;
+    top: 600px;
+}
+
+.Thu {
+    width: 175px;
+    height: 60px;
+    left: 620px;
+    top: 600px;
+}
+
+.Fri {
+    width: 175px;
+    height: 60px;
+    left: 620px;
+    top: 600px;
+}
+
+.Sat {
+    width: 175px;
+    height: 60px;
+    left: 620px;
+    top: 600px;
+}
+
+.Sun {
+    width: 175px;
+    height: 60px;
+    left: 620px;
+    top: 600px;
+}
+
+.Day {
+    padding: 16px 30px;
+    position: absolute;
+    width: 175px;
+    height: 60px;
+    left: 620px;
+    top: 600px;
+    background-color: #2B303E;
+    color: white;
+    box-sizing: border-box;
+    border-radius: 20px;
     font-family: Manrope;
 }
 
@@ -105,6 +181,26 @@
     left: 720px;
     right: 400px;
     top: 500px;
+    border-radius: 20px;
+    font-family: Manrope;
+}
+
+.inputPickStartData {
+    position: absolute;
+    height: 10px;
+    left: 530px;
+    right: 400px;
+    top: 230px;
+    border-radius: 20px;
+    font-family: Manrope;
+}
+
+.inputPickEndData {
+    position: absolute;
+    height: 10px;
+    left: 720px;
+    right: 400px;
+    top: 230px;
     border-radius: 20px;
     font-family: Manrope;
 }
@@ -157,7 +253,7 @@ button {
     position: absolute;
     width: 576px;
     height: 623px;
-    left: 0px;
+    left: 1000px;
     top: 52px;
 }
 
@@ -165,13 +261,13 @@ button {
     position: absolute;
     width: 668px;
     height: 670px;
-    left: 1000px;
-    top: 740px;
+    left: 0px;
+    top: 500px;
 }
 
 .footer {
     position: absolute;
-    width: 1400px;
+    width: 2000px;
     height: 580px;
     left: 0px;
     top: 912px;
