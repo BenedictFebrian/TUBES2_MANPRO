@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="../../css/Weather Data/PickTime.css">
+	<link rel="stylesheet" type="text/css" href="../../library/w3.css">
+	<script type="text/javascript" src="../../js/Weather Data/PickTime.js" defer></script>
+	<title></title>
+	</style>
+</head>
+<body>
+	<!-- Import Header -->
+
+	<div class="content w3-center">
+		<!-- Tabbed navigation bar -->
+		<div>
+			<button class="tablink active" onclick="openContent(this,'daily')">Daily Data</button>
+			<button class="tablink" onclick="openContent(this,'weekly')">Weekly Data</button>
+			<button class="tablink" onclick="openContent(this,'monthly')">Monthly Data</button>
+		</div>
+
+		<!-- Daily -->
+		<div class="tab" id="daily">
+			<form action="DataDaily.html" class="form-pick-date">
+				<!-- Input City Name -->
+				<div class="input-city">
+					<label>
+						<h2>Enter Your City</h2>
+						<input type="text" name="city" placeholder="Input Your City Here...">
+					</label>
+				</div>
+				<!-- Input Date -->
+				<div class="input-time" id="input-date">
+					<label>
+						<h2>Pick the Date</h2>
+						<input type="date" name="date">
+					</label>
+				</div>
+				<button type="submit" class="search w3-btn-black">Search</button>
+			</form>
+		</div>
+		
+		<!-- Weekly -->
+		<div class="tab" id="weekly" style="display: none;">
+			<form action="DataWeekly.html" class="form-pick-week">
+				<!-- Input City Name -->
+				<div class="input-city"> 
+					<label>
+						<h2>Enter Your City</h2>
+						<input type="text" name="city" placeholder="Input Your City Here...">
+					</label>
+				</div>
+				<!-- Input Week -->
+				<div class="input-time" id="input-week">
+					<label>
+						<h2>Pick the Week</h2>
+						<input type="week" name="date">
+					</label>
+				</div>
+				<button type="submit" class="search w3-btn-black">Search</button>
+			</form>
+		</div>
+
+		<!-- Monthly -->
+		<div class="tab" id="monthly"  style="display: none;">
+			<form action="DataMonthly.html" class="form-pick-month">
+				<!-- Input City Name -->
+				<div class="input-city">
+					<label>
+						<h2>Enter Your City</h2>
+						<input type="text" name="city" placeholder="Input Your City Here...">
+					</label>
+				</div>
+				<!-- Input Month -->
+				<div class="input-time" id="input-month">
+					<label>
+						<h2>Pick the Month</h2>
+						<input type="month" name="date">
+					</label>
+				</div>
+				<button type="submit" class="search w3-btn-black">Search</button>
+			</form>
+		</div>
+	</div>
+
+	<!-- Import Footer -->
+</body>
+</html>
