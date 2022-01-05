@@ -1,89 +1,123 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="../../css/Weather Data/PickTime.css">
-	<link rel="stylesheet" type="text/css" href="../../library/w3.css">
-	<script type="text/javascript" src="../../js/Weather Data/PickTime.js" defer></script>
-	<title></title>
-	</style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../../css/Weather Data/PickTime.css">
+    <link rel="stylesheet" type="text/css" href="../../library/w3.css">
+    <script type="text/javascript" src="../../js/Weather Data/PickTime.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;700&display=swap" rel="stylesheet">
+    <title>Pick Date</title>
+    </style>
 </head>
+
 <body>
-	<!-- Import Header -->
+    <!-- Import Header -->
+    <div class="topnav">
+        <div class="gambar">
+            <a href="../../home.html"><img src="../../images/Logo.png">
+        </div>
+        <div class="topnav-right">
+            <a href="../../home.html" class="tablink active w3-bar-item w3-button home"><b>Home<b></a>
+            <a href="../Weather Data/PickTime.html" class="tablink w3-bar-item w3-button data">Weather Data</a>
+            <a href="../Weather Prediction/PredictNow.html" class="tablink w3-bar-item w3-button predict">Weather
+				Prediction</a>
+        </div>
+    </div>
+    <div class="content w3-center">
+        <!-- Tabbed navigation bar -->
+        <div class="navData">
+            <a class="tablink active w3-bar-item w3-button DailyData" onclick="openContent(this,'daily')">Daily
+				Data</a>
+            <a class="tablink w3-bar-item w3-button DailyData" onclick="openContent(this,'weekly')">Weekly
+				Data</a>
+            <a class="tablink w3-bar-item w3-button DailyData" onclick="openContent(this,'monthly')">Monthly
+				Data</a>
+        </div>
 
-	<div class="content w3-center">
-		<!-- Tabbed navigation bar -->
-		<div>
-			<button class="tablink active" onclick="openContent(this,'daily')">Daily Data</button>
-			<button class="tablink" onclick="openContent(this,'weekly')">Weekly Data</button>
-			<button class="tablink" onclick="openContent(this,'monthly')">Monthly Data</button>
-		</div>
+        <!-- Daily -->
+        <div class="tab" id="daily">
+            <form action="../Weather Data/DataDaily.html" class="form-pick-date">
+                <!-- Input City Name -->
+                <div class="input-city">
+                    <label>
+						<p>Enter Your City</p>
+						<div class="inputKota">
+							<input type="text" name="city" placeholder="Input Your City Here...">
+						</div>
+					</label>
+                </div>
+                <!-- Input Date -->
+                <div class="input-time" id="input-date">
+                    <label>
+						<p>Pick the Date</p>
+						<div class="inputPick">
+							<input type="date" name="date">
+						</div>
+					</label>
+                </div>
+                <button type="submit" class="Search">Search</button>
+            </form>
+        </div>
 
-		<!-- Daily -->
-		<div class="tab" id="daily">
-			<form action="DataDaily.html" class="form-pick-date">
-				<!-- Input City Name -->
-				<div class="input-city">
-					<label>
-						<h2>Enter Your City</h2>
+        <!-- Weekly -->
+        <div class="tab" id="weekly" style="display: none;">
+            <form action="../Weather Data/DataWeekly.html" class="form-pick-week">
+                <!-- Input City Name -->
+                <div class="input-city">
+                    <label>
+						<p>Enter Your City</p>
 						<input type="text" name="city" placeholder="Input Your City Here...">
 					</label>
-				</div>
-				<!-- Input Date -->
-				<div class="input-time" id="input-date">
-					<label>
-						<h2>Pick the Date</h2>
-						<input type="date" name="date">
-					</label>
+                </div>
+                <!-- Input Week -->
+                <div class="input-time" id="input-week">
+                    <label>
+						<p>Pick the Week</p>
+						<input type="week" name="week">
 				</div>
 				<button type="submit" class="search w3-btn-black">Search</button>
 			</form>
 		</div>
-		
-		<!-- Weekly -->
-		<div class="tab" id="weekly" style="display: none;">
-			<form action="DataWeekly.html" class="form-pick-week">
-				<!-- Input City Name -->
-				<div class="input-city"> 
-					<label>
-						<h2>Enter Your City</h2>
-						<input type="text" name="city" placeholder="Input Your City Here...">
-					</label>
-				</div>
-				<!-- Input Week -->
-				<div class="input-time" id="input-week">
-					<label>
-						<h2>Pick the Week</h2>
-						<input type="week" name="date">
-					</label>
-				</div>
-				<button type="submit" class="search w3-btn-black">Search</button>
-			</form>
-		</div>
-
 		<!-- Monthly -->
-		<div class="tab" id="monthly"  style="display: none;">
-			<form action="DataMonthly.html" class="form-pick-month">
+		<div class="tab" id="monthly" style="display: none;">
+			<form action="../Weather Data/DataMonthly.html" class="form-pick-month">
 				<!-- Input City Name -->
 				<div class="input-city">
 					<label>
-						<h2>Enter Your City</h2>
+						<p>Enter Your City</p>
 						<input type="text" name="city" placeholder="Input Your City Here...">
 					</label>
-				</div>
-				<!-- Input Month -->
-				<div class="input-time" id="input-month">
-					<label>
-						<h2>Pick the Month</h2>
-						<input type="month" name="date">
+                </div>
+                <!-- Input Month -->
+                <div class="input-time" id="input-month">
+                    <label>
+						<p>Pick the Month</p>
+						<input type="month" id="bulan" name="bulan">
 					</label>
-				</div>
-				<button type="submit" class="search w3-btn-black">Search</button>
-			</form>
-		</div>
-	</div>
+                </div>
+                <button type="submit" class="search w3-btn-black">Search</button>
+            </form>
+        </div>
+    </div>
+    <div class="sun2">
+        <img src="../../images/sun2.png">
+    </div>
 
-	<!-- Import Footer -->
+    <div class="footer">
+        <img src="../../images/Footer.png">
+    </div>
+
+    <div class="moon2">
+        <img src="../../images/moon2.png">
+    </div>
+    <!-- Import Footer -->
 </body>
+
 </html>
