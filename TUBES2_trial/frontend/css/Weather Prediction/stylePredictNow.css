@@ -1,0 +1,107 @@
+.data {
+    color: gray;
+}
+
+.topnav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    width: 1339px;
+    height: 32px;
+    left: 0px;
+    order: 1;
+    font-family: Manrope;
+}
+
+.topnav-right {
+    position: relative;
+    left: 25%;
+}
+
+.topnav .gambar {
+    position: static;
+    width: 80px;
+    height: 82px;
+    order: 0;
+    margin: 0px 5px -25px;
+}
+
+.judul {
+    position: absolute;
+    width: 721px;
+    height: 82px;
+    left: 500px;
+    top: 50px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 89px;
+}
+
+.predict1 {
+    position: absolute;
+    height: 10px;
+    left: 650px;
+    right: 300px;
+    top: 200px;
+}
+
+.predict1 input {
+    border-radius: 20px;
+    background-color: #E8E8E8;
+    border: 0cm;
+    height: 40px;
+    text-align: center;
+}
+
+.satu {
+    margin-bottom: 40px;
+}
+
+#rainfall,
+#humidity9,
+#humidity3 {
+    width: 40%;
+    font-size: 18px;
+}
+
+button {
+    padding: 16px 30px;
+    position: absolute;
+    width: 300px;
+    height: 60px;
+    left: -60px;
+    top: 300px;
+    background-color: #6C63FF;
+    color: white;
+    border: 1px solid #6C63FF;
+    box-sizing: border-box;
+    border-radius: 20px;
+    font-family: Manrope;
+}
+
+.sun2 {
+    position: absolute;
+    width: 576px;
+    height: 623px;
+    left: 0px;
+    top: 52px;
+    z-index: 2
+}
+
+.moon2 {
+    position: absolute;
+    height: 740px;
+    left: 76%;
+    top: 1000px;
+}
+
+.footer {
+    position: absolute;
+    left: 0px;
+    top: 1300px;
+    z-index: 0;
+}

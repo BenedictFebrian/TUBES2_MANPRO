@@ -1,0 +1,25 @@
+.topnav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    width: 1339px;
+    height: 32px;
+    left: 0px;
+    order: 1;
+    font-family: Manrope;
+}
+
+.topnav-right {
+    position: relative;
+    left: 25%;
+}
+
+.topnav .gambar {
+    position: static;
+    width: 80px;
+    height: 82px;
+    order: 0;
+    margin: 0px 5px -25px;
+}
