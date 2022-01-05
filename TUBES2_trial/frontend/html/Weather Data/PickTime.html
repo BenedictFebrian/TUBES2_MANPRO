@@ -58,7 +58,7 @@
                     <label>
 						<p>Pick the Date</p>
 						<div class="inputPick">
-							<input type="date" name="date">
+							<input class="w3-center" type="date" name="date">
 						</div>
 					</label>
                 </div>
@@ -73,36 +73,45 @@
                 <div class="input-city">
                     <label>
 						<p>Enter Your City</p>
-						<input type="text" name="city" placeholder="Input Your City Here...">
+						<div class="inputKota">
+							<input type="text" name="city" placeholder="Input Your City Here...">
+						</div>
 					</label>
                 </div>
                 <!-- Input Week -->
-                <div class="input-time" id="input-week">
+                <div class="input-time" id="input-date">
                     <label>
 						<p>Pick the Week</p>
-						<input type="week" name="week">
-				</div>
-				<button type="submit" class="search w3-btn-black">Search</button>
-			</form>
-		</div>
-		<!-- Monthly -->
-		<div class="tab" id="monthly" style="display: none;">
-			<form action="../Weather Data/DataMonthly.html" class="form-pick-month">
-				<!-- Input City Name -->
-				<div class="input-city">
-					<label>
+						<div class="inputPick">
+							<input class="w3-center" type="week" id="week" name="week">
+						</div>
+					</label>
+                </div>
+                <button type="submit" class="Search">Search</button>
+            </form>
+        </div>
+        <!-- Monthly -->
+        <div class="tab" id="monthly" style="display: none;">
+            <form action="../Weather Data/DataMonthly.html" class="form-pick-month">
+                <!-- Input City Name -->
+                <div class="input-city">
+                    <label>
 						<p>Enter Your City</p>
-						<input type="text" name="city" placeholder="Input Your City Here...">
+						<div class="inputKota">
+							<input type="text" name="city" placeholder="Input Your City Here...">
+						</div>
 					</label>
                 </div>
                 <!-- Input Month -->
                 <div class="input-time" id="input-month">
                     <label>
 						<p>Pick the Month</p>
-						<input type="month" id="bulan" name="bulan">
+						<div class="inputPick ">
+							<input class="w3-center" type="month" id="month" name="month">
+						</div>
 					</label>
                 </div>
-                <button type="submit" class="search w3-btn-black">Search</button>
+                <button type="submit" class="Search">Search</button>
             </form>
         </div>
     </div>
@@ -117,7 +126,6 @@
     <div class="moon2">
         <img src="../../images/moon2.png">
     </div>
-    <!-- Import Footer -->
 </body>
 
 </html>

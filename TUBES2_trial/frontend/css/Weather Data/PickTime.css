@@ -1,3 +1,7 @@
+.data {
+    background-color: gray;
+}
+
 .topnav {
     display: flex;
     flex-direction: row;
@@ -66,6 +70,7 @@
     border-radius: 20px;
     background-color: #E8E8E8;
     border: 0cm;
+    text-align: center;
 }
 
 .input-time p {
@@ -84,7 +89,31 @@
 .inputPick input[type=date] {
     position: absolute;
     height: 40px;
-    left: 680px;
+    left: 660px;
+    right: 400px;
+    top: 500px;
+    border-radius: 20px;
+    font-family: Manrope;
+    background-color: #E8E8E8;
+    border: 0cm;
+}
+
+.inputPick input[type=week] {
+    position: absolute;
+    height: 40px;
+    left: 660px;
+    right: 400px;
+    top: 500px;
+    border-radius: 20px;
+    font-family: Manrope;
+    background-color: #E8E8E8;
+    border: 0cm;
+}
+
+.inputPick input[type=month] {
+    position: absolute;
+    height: 40px;
+    left: 650px;
     right: 400px;
     top: 500px;
     border-radius: 20px;
@@ -96,9 +125,9 @@
 button {
     padding: 16px 30px;
     position: absolute;
-    width: 175px;
+    width: 300px;
     height: 60px;
-    left: 660px;
+    left: 600px;
     top: 600px;
     background-color: #6C63FF;
     color: white;
