@@ -1,0 +1,107 @@
+.topnav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    width: 1339px;
+    height: 32px;
+    left: 0px;
+    order: 1;
+    font-family: Manrope;
+}
+
+.topnav-right {
+    position: relative;
+    left: 25%;
+}
+
+.topnav .gambar {
+    position: static;
+    width: 80px;
+    height: 82px;
+    order: 0;
+    margin: 0px 5px -25px;
+}
+
+.isi {
+    padding-top: 200px;
+    padding-left: 400px;
+    font-family: Manrope;
+}
+
+.isi p b {
+    font-size: 45px;
+    font-family: Manrope;
+    position: relative;
+}
+
+.tombol {
+    color: white;
+    background-color: rgb(108, 98, 254);
+    border: none;
+    width: 155px;
+    height: 50px;
+    font-family: Manrope;
+}
+
+.sun img {
+    position: absolute;
+    height: 740px;
+    left: 72%;
+    top: 20px;
+}
+
+.bawah {
+    position: absolute;
+    width: 750px;
+    height: 250px;
+    left: 300px;
+    top: 650px;
+    display: flex;
+    background: #2F2E41;
+    color: white;
+    z-index: 9;
+    font-family: Manrope;
+}
+
+.prediksi h1 {
+    position: static;
+    width: 346px;
+    font-size: 40px;
+    line-height: 10px;
+    color: white;
+    margin: 0px 80px;
+    padding-top: 75px;
+    font-family: Manrope;
+}
+
+.tombol1 {
+    position: static;
+    width: 225px;
+    height: 50px;
+    background: #6C63FF;
+    color: white;
+    margin-top: 110px;
+    margin-left: -40px;
+    border: none;
+}
+
+.moon {
+    position: absolute;
+    width: 540px;
+    height: 740px;
+    top: 500px;
+    z-index: 1;
+}
+
+.footer {
+    position: absolute;
+    width: 100%;
+    top: 130%;
+    z-index: 0;
+}
+
+button {
+    z-index: 99;
+}

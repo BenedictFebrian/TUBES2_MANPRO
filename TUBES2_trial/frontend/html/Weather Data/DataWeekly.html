@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../../css/Weather Data/DataWeekly.css">
+    <link rel="stylesheet" type="text/css" href="../../library/w3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;700&display=swap" rel="stylesheet">
+    <title>Data Weekly</title>
+</head>
+
+<body>
+    <div class="topnav">
+        <div class="gambar">
+            <a href="../../home.html"><img src="../../images/Logo.png">
+        </div>
+        <div class="topnav-right">
+            <a href="../../home.html" class="tablink active w3-bar-item w3-button home"><b>Home<b></a>
+            <a href="../Weather Data/PickTime.html" class="tablink w3-bar-item w3-button data">Weather Data</a>
+            <a href="../Weather Prediction/PredictNow.html" class="tablink w3-bar-item w3-button predict">Weather
+                Prediction</a>
+        </div>
+    </div>
+    <div class="content">
+        <div class="">
+            <h1>Sidney</h1>
+        </div>
+        <div class="data-weekly">
+            <!-- 7x, mungkin bisa pake looping(?) -->
+            <div class="data-daily" style="display: inline-block;">
+                <span class="date">5/9</span>
+                <!-- Tanggal/Bulan -->
+                <img src="../../images/Rain.png" style="width: 20px; height: auto;">
+                <strong>26°/31°</strong>
+                <!-- 26° 9AM, 31° 3PM -->
+                <button>
+                    <a href="">More Details</a>
+                    <!-- di link ke hari sesuai tanggal nya -->
+                </button>
+            </div>
+
+        </div>
+        <div class="">
+            <button><a href="DataWeeklyGraph.html">See Graph</a></button>
+        </div>
+    </div>
+    <script src="../../js/Weather Data/data-weekly.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,90 @@
+.topnav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    width: 1339px;
+    height: 32px;
+    left: 0px;
+    order: 1;
+    font-family: Manrope;
+}
+
+.topnav-right {
+    position: relative;
+    left: 25%;
+}
+
+.topnav .gambar {
+    position: static;
+    width: 80px;
+    height: 82px;
+    order: 0;
+    margin: 0px 5px -25px;
+}
+
+.content {
+    margin-left: 25%;
+    margin-right: auto;
+}
+
+.content .kota p {
+    top: 20px;
+    font-family: Manrope;
+    font-size: 65px;
+}
+
+.details.left {
+    background-color: lightgrey;
+    max-width: 350px;
+    top: 100%;
+}
+
+.details h1 {
+    font-size: 50px;
+    font-weight: 600;
+    font-family: Manrope;
+}
+
+.info-left {
+    text-align: left;
+    font-size: 18px;
+    font-family: Manrope;
+}
+
+.info-right {
+    text-align: right;
+    font-size: 18px;
+    font-family: Manrope;
+}
+
+.details.right {
+    margin-left: 100px;
+    max-width: 350px;
+    font-family: Manrope;
+}
+
+.details.right h1 {
+    font-size: 30px;
+}
+
+.details.right img {
+    width: 300px;
+    height: 300px;
+}
+
+.moon {
+    position: absolute;
+    width: 540px;
+    height: 740px;
+    top: 50%;
+    z-index: 1;
+}
+
+.footer {
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    z-index: 0;
+}

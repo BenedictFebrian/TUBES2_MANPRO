@@ -1,0 +1,161 @@
+.data {
+    background-color: gray;
+}
+
+.topnav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    width: 1339px;
+    height: 32px;
+    left: 0px;
+    order: 1;
+    font-family: Manrope;
+}
+
+.topnav-right {
+    position: relative;
+    left: 25%;
+}
+
+.topnav .gambar {
+    position: static;
+    width: 80px;
+    height: 82px;
+    order: 0;
+    margin: 0px 5px -25px;
+}
+
+.content {
+    font-family: Manrope;
+}
+
+.navData {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    width: 1339px;
+    height: 32px;
+    top: 150px;
+    left: 41%;
+    order: 1;
+    font-family: Manrope;
+    z-index: 10;
+}
+
+.input-city p {
+    position: absolute;
+    width: 721px;
+    height: 82px;
+    left: 28%;
+    top: 150px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 89px;
+}
+
+.inputKota input[type=text] {
+    position: absolute;
+    height: 40px;
+    left: 650px;
+    right: 400px;
+    top: 300px;
+    font-size: 15px;
+    font-family: Manrope;
+    border-radius: 20px;
+    background-color: #E8E8E8;
+    border: 0cm;
+    text-align: center;
+}
+
+.input-time p {
+    position: absolute;
+    width: 721px;
+    height: 82px;
+    left: 28%;
+    top: 350px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 89px;
+}
+
+.inputPick input[type=date] {
+    position: absolute;
+    height: 40px;
+    left: 660px;
+    right: 400px;
+    top: 500px;
+    border-radius: 20px;
+    font-family: Manrope;
+    background-color: #E8E8E8;
+    border: 0cm;
+}
+
+.inputPick input[type=week] {
+    position: absolute;
+    height: 40px;
+    left: 660px;
+    right: 400px;
+    top: 500px;
+    border-radius: 20px;
+    font-family: Manrope;
+    background-color: #E8E8E8;
+    border: 0cm;
+}
+
+.inputPick input[type=month] {
+    position: absolute;
+    height: 40px;
+    left: 650px;
+    right: 400px;
+    top: 500px;
+    border-radius: 20px;
+    font-family: Manrope;
+    background-color: #E8E8E8;
+    border: 0cm;
+}
+
+button {
+    padding: 16px 30px;
+    position: absolute;
+    width: 300px;
+    height: 60px;
+    left: 600px;
+    top: 600px;
+    background-color: #6C63FF;
+    color: white;
+    border: 1px solid #6C63FF;
+    box-sizing: border-box;
+    border-radius: 20px;
+    font-family: Manrope;
+}
+
+.sun2 {
+    position: absolute;
+    width: 576px;
+    height: 623px;
+    left: 0px;
+    top: 52px;
+    z-index: 2
+}
+
+.moon2 {
+    position: absolute;
+    height: 740px;
+    left: 72%;
+    top: 100%;
+}
+
+.footer {
+    position: absolute;
+    width: 100%;
+    top: 120%;
+    z-index: 0;
+}
